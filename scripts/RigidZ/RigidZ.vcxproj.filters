@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="keyboard.cpp" />
+    <ClCompile Include="menu.cpp" />
+    <ClCompile Include="drawings.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="functions.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="keyboard.h" />
+    <ClInclude Include="..\..\inc\main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h" />
+    <ClInclude Include="..\..\inc\types.h">
+      <Filter>include\Natives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\natives.h">
+      <Filter>include\Natives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\enums.h">
+      <Filter>include\Natives</Filter>
+    </ClInclude>
+    <ClInclude Include="drawings.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{fe82bd4a-2d14-486a-8be5-8bf6b50a2414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Natives">
+      <UniqueIdentifier>{4314ad70-3ac6-46d2-bc19-2692b48b130f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{6cf7b2ac-dc19-49c2-9ae4-29bdc669892d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{5e1116d8-3e73-4490-a0c9-cadecc0bc84b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
